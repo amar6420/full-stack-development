@@ -1,14 +1,16 @@
 .blue{
     color: blue;
     font-weight: 100;
+    text-decoration: overline;
 }
 
 
 .red{
     color: red;
+    text-decoration: underline;
 }
 
-#desing{
+#design{
     font-family: fantasy;
 }
 
@@ -21,4 +23,9 @@ a:visited{
 a:hover{
     color: chartreuse;
     text-decoration: overline;
+}
+
+a:active{
+    color: blueviolet;
+    text-decoration: line-through;
 }
